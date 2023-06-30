@@ -2,12 +2,12 @@
   "name": "ts",
   "version": "1.2.0",
   "description": "Hey bro...",
-  "main": "src/index.ts",
+  "main": "index.js",
   "engines": {
     "node": ">=14.0.0"
   },
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node index.js",
     "start-ts": "ts-node index.ts",
     "dev": "nodemon index.ts",
     "build": "tsc",
