@@ -3,6 +3,9 @@
   "version": "1.2.0",
   "description": "Hey bro...",
   "main": "src/index.ts",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "start": "node dist/index.js",
     "start-ts": "ts-node index.ts",
