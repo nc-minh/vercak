@@ -9,10 +9,9 @@
   "scripts": {
     "start": "node dist/index.js",
     "start-ts": "ts-node index.ts",
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon index.ts",
     "build": "tsc",
     "lint": "eslint --fix src test",
-    "test": "jest",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],
