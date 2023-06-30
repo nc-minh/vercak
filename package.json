@@ -7,8 +7,8 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "start-ts": "ts-node index.ts",
+    "start": "node server.js",
+    "start-ts": "ts-node server.ts",
     "dev": "nodemon index.ts",
     "build": "tsc",
     "lint": "eslint --fix src test",
